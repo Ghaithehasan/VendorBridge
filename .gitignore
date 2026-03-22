@@ -1,0 +1,44 @@
+# ── Laravel / PHP ─────────────────────────────────────────
+*.log
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+/vendor
+
+# ── Secrets & environment (لا تُرفع أبداً) ─────────────────
+# ملاحظة: اترك .env.example مرفوعاً — هو القالب الآمن بدون أسرار
+.env
+.env.backup
+.env.production
+.env.local
+.env.*.local
+auth.json
+
+# ── Node / frontend build ─────────────────────────────────
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+/public/build
+/public/hot
+
+# ── Laravel storage & symlinks ────────────────────────────
+/public/storage
+/storage/*.key
+/storage/pail
+
+# ── IDE & editors ─────────────────────────────────────────
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# ── OS files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Local dev (Laravel Homestead / Vagrant) ─────────────
+Homestead.json
+Homestead.yaml
